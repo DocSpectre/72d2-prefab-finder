@@ -1,7 +1,7 @@
-<a href="https://7daystodie.com/" target="_blank" rel="noreferrer"> <img src="http://www.onrpg.com/wp-content/uploads/2016/04/7_days_to_die_668x227.jpg" alt="7d2d-banner" width="30" height="30"/> </a>
+<a href="https://7daystodie.com/" target="_blank" rel="noreferrer"> <img src="http://www.onrpg.com/wp-content/uploads/2016/04/7_days_to_die_668x227.jpg" alt="7d2d-banner"/> </a>
 
 
-# 7D2D-prefab-finder
+# 7D2D Prefab Finder
 A personal QOL tool I made for the game 7 Days to Die. Built with <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
 <br/>
 Provides capability to search nearby POI/s and calculate distance of a prefab from a given coordinate or location
