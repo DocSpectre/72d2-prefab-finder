@@ -3,7 +3,7 @@ const xml2js = require('xml2js');
 
 //** Convert XML to JSON format **/
 exports.xml2Json = async (xmlFile) => {
-    const xml = xmlFile.buffer.toString('utf8');
+    const xml = xmlFile.toString('utf8');
     return await xml2js.parseStringPromise(xml)
         .then(({ prefabs: { decoration } }) => decoration)
         .catch(err => null);

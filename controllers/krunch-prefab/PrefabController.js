@@ -1,14 +1,17 @@
+const fs = require('fs');
 const xml2js = require('xml2js');
 const utils = require('../../utils/utils');
+const xmlFile = fs.readFileSync('././sample-prefabs/krunch-prefabs.xml', { encoding: 'utf-8' });
 
-exports.searchNearPOI = async (query, xmlFile) => {
+exports.searchNearPOI = async (query) => {
+
     const response = {
         message: 'Invalid arguments'
     };
 
     if (!xmlFile || !query || !query.radius || !query.center) return response;
 
-    const jsonOut = await utils.xml2Json(xmlFile.buffer);
+    const jsonOut = await utils.xml2Json(xmlFile);
     if (!jsonOut) return response;
 
     const { radius, center, poi = '' } = query;
@@ -30,13 +33,13 @@ exports.searchNearPOI = async (query, xmlFile) => {
     }, []);
 };
 
-exports.findPOIDistance = async (query, xmlFile) => {
+exports.findPOIDistance = async (query) => {
     const response = {
         message: 'Invalid arguments'
     };
 
     if (!xmlFile || !query || !query.center) return response;
-    const jsonOut = await utils.xml2Json(xmlFile.buffer);
+    const jsonOut = await utils.xml2Json(xmlFile);
     if (!jsonOut) return response;
 
     const { center, poi = '' } = query;

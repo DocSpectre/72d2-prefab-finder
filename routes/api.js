@@ -8,5 +8,6 @@ router.get('/', (req, res) => {
 });
 
 require('./prefab/index')(router);
+require('./krunch-prefab/index')(router);
 
 module.exports = router;
