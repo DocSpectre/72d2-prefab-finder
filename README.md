@@ -1,7 +1,9 @@
 # 7D2D-prefab-finder
 7D2D tool for searching of the nearest prefabs from a given center coordinate.
 
-## **Required file: Prefabs.xml**
+-- 
+
+**Required file: Prefabs.xml**
 ## API
 #### /prefab/near-poi
 Find nearest POI/s within search radius
