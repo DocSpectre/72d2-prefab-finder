@@ -24,7 +24,7 @@ Find nearest POI/s within search radius
 #### /prefab/poi-distance
 Get distance between POI/s and current location
 <br/>
-**Method**: GET 
+**Method**: POST 
 <br/>
 **Parameters**: 
 <br/>
