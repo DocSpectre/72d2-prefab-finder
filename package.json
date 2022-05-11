@@ -4,6 +4,8 @@
   "description": "7D2D tool for searching of the nearest prefabs from a given center coordinate.",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
