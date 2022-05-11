@@ -5,7 +5,7 @@ Provides capability to search near POI/s and calculate distance of a prefab from
 
 ---
 
-<a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/heroku/favicon/master/favicon.iconset/icon_32x32.png" alt="heroku" width="40" height="40"/> </a>
+<a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/heroku/favicon/master/favicon.iconset/icon_32x32.png" alt="heroku" width="30" height="30"/> </a>
 Live URL: https://sleepy-island-17313.herokuapp.com/      
 
 
