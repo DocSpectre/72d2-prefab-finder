@@ -11,9 +11,9 @@ Live URL: https://sleepy-island-17313.herokuapp.com/
 
 Sample Links:
 <br/>
-POST: https://sleepy-island-17313.herokuapp.com/prefab/near-poi?poi=dfall&radius=1300&center=530,-999
+POST: https://sleepy-island-17313.herokuapp.com/prefab/near-poi?poi=trader&radius=1300&center=530,-999
 <br/>
-POST: https://sleepy-island-17313.herokuapp.com/prefab/poi-distance?poi=dfalls&center=530,-999
+POST: https://sleepy-island-17313.herokuapp.com/prefab/poi-distance?poi=trader&center=530,-999
 
 ---
 
