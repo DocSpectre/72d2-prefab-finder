@@ -5,7 +5,8 @@ Provides capability to search near POI/s and calculate distance of a prefab from
 
 ---
 
-Live URL: https://sleepy-island-17313.herokuapp.com/
+Live URL: https://sleepy-island-17313.herokuapp.com/ <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/heroku/favicon/master/favicon.iconset/icon_32x32.png" alt="heroku" width="40" height="40"/> </a>
+
 
 Sample Links:
 POST: https://sleepy-island-17313.herokuapp.com/prefab/near-poi?poi=dfall&radius=1300&center=530,-999
