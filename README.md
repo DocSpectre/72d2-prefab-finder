@@ -1,5 +1,6 @@
 # 7D2D-prefab-finder
 QOL tool for the game 7 Days to Die. 
+<br/>
 Provides capability to search near POI/s and calculate distance of a prefab from a given coordinate or location
 
 ---
