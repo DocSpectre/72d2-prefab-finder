@@ -1,7 +1,11 @@
 # 7D2D-prefab-finder
-7D2D tool for searching of the nearest prefabs from a given center coordinate.
+QOL tool for the game 7 Days to Die. Built with <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
+<br/>
+Provides capability to search near POI/s and calculate distance of a prefab from a given coordinate or location
 
-## **Required file: Prefabs.xml**
+---
+
+**Required file: Prefabs.xml**
 ## API
 #### /prefab/near-poi
 Find nearest POI/s within search radius
