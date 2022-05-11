@@ -10,7 +10,7 @@ Find nearest POI/s within search radius
 <br/>
 **Parameters**: 
 <br/>
-*poi* (OPTIONAL) - name of poi to filter
+*poi* - **(OPTIONAL)** name of poi to filter
 <br/>
 *radius* - radius to search
 <br/>
@@ -24,6 +24,6 @@ Get distance between POI/s and current location
 <br/>
 **Parameters**: 
 <br/>
-*poi* (OPTIONAL) - name of poi to filter
+*poi* - **(OPTIONAL)** name of poi to filter
 <br/>
 *center* - start location / midpoint
