@@ -1,7 +1,7 @@
 # 7D2D-prefab-finder
 7D2D tool for searching of the nearest prefabs from a given center coordinate.
 
--- 
+---
 
 **Required file: Prefabs.xml**
 ## API
