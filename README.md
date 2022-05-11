@@ -5,6 +5,14 @@ Provides capability to search near POI/s and calculate distance of a prefab from
 
 ---
 
+Live URL: https://sleepy-island-17313.herokuapp.com/
+
+Sample Links:
+POST: https://sleepy-island-17313.herokuapp.com/prefab/near-poi?poi=dfall&radius=1300&center=530,-999
+POST: https://sleepy-island-17313.herokuapp.com/prefab/poi-distance?poi=dfalls&center=530,-999
+
+---
+
 **Required file: Prefabs.xml**
 ## API
 #### /prefab/near-poi
@@ -12,13 +20,16 @@ Find nearest POI/s within search radius
 <br/>
 **Method**: POST
 <br/>
-**Parameters**: 
+**Query Parameters**: 
 <br/>
-*poi* - **(OPTIONAL)** name of poi to filter
+*poi* STRING - **(OPTIONAL)** name of poi to filter
 <br/>
-*radius* - radius to search
+*radius* INT - radius to search
 <br/>
-*center* - start location / midpoint
+*center* INT - start location / midpoint
+<br/>
+**Body**: 
+*file* XML - Prefabs.xml file
 <br/>
 
 #### /prefab/poi-distance
@@ -26,8 +37,12 @@ Get distance between POI/s and current location
 <br/>
 **Method**: POST 
 <br/>
-**Parameters**: 
+**Query Parameters**: 
 <br/>
-*poi* - **(OPTIONAL)** name of poi to filter
+*poi* STRING - **(OPTIONAL)** name of poi to filter
 <br/>
-*center* - start location / midpoint
+*center* INT - start location / midpoint
+**Body**: 
+*file* XML - Prefabs.xml file
+<br/>
+
