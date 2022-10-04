@@ -12,7 +12,7 @@ Provides capability to search nearby POI/s and calculate distance of a prefab fr
 Live URL: https://sleepy-island-17313.herokuapp.com/      
 
 
-Live Sample Links using **Darkness Fall: Krunch's 12k Map**:
+Live Sample Links using **Darkness Fall: Medium-PEP Map**:
 <br/>
 GET: https://sleepy-island-17313.herokuapp.com/sample/near-poi?poi=dfall&radius=1300&center=530,-999
 <br/>

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
 const utils = require('../../utils/utils');
-const xmlFile = fs.readFileSync('././sample-prefabs/krunch-prefabs.xml', { encoding: 'utf-8' });
+const xmlFile = fs.readFileSync('././sample-prefabs/DFalls-Medium-PEP.xml', { encoding: 'utf-8' });
 
 exports.searchNearPOI = async (query) => {
 
